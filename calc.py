@@ -1,4 +1,6 @@
-# Автор: ...
+# Автор: Александр Горбачев
+
+import math
 
 def add(a, b):
     return a + b
@@ -9,9 +11,10 @@ def subtract(a, b):
 
 
 def multiply(a, b):
-    # TODO: не реализовано
-    return None
+    return a * b
 
+def sqrt(x):
+    return math.sqrt(x)
 
 if __name__ == "__main__":
     print("Простой калькулятор запущен.")
